@@ -50,7 +50,6 @@ export const FollowMouse = () => {
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
       />
-      <h3>Proyecto 3</h3>
       <button onClick={() => setEnable(!enable)}>
         {enable ? "Desactivar" : "Activar"} seguir puntero
       </button>
